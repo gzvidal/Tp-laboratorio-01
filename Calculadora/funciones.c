@@ -26,15 +26,18 @@ int mostrarNumerosMenu(int numeroUno, int numeroDos)
     printf("El primer numero que ingreso es: %d \n", numeroUno);
 
     printf("y el segundo numero que ingreso es: %d \n", numeroDos);
+
+    return 0;
 }
 
 int menuDeOperaciones(){
     int opcion;
-    printf ("¿Desea sumarlos (0), restarlos (1), dividirlos (2) o multiplicarlos (3)");
+    printf ("¿Desea sumarlos (0), restarlos (1), dividirlos (2) o multiplicarlos (3) \n");
     scanf("%d", &opcion);
        if(opcion == 0){
            int sumaDeNumeros();
        }
+    return 0;
 }
 
 
@@ -42,6 +45,7 @@ int sumaDeNumeros(int numeroUno, int numeroDos)
 {
     int resultadoSuma;
     resultadoSuma = numeroUno + numeroDos;
+    return resultadoSuma;
      printf ("Suma %d \n", resultadoSuma);
 
      //Se declara la variable del resultado para colocar el resultado de la suma para luego mostrarlo.
@@ -51,20 +55,26 @@ int restaDeNumeros(int numeroUno, int numeroDos)
 {
     int resultadoResta;
     resultadoResta = numeroUno - numeroDos;
+    return resultadoResta;
      printf ("Resta: %d \n", resultadoResta);
+
 }
 
 int divisionDeNumeros(int numeroUno, int numeroDos)
 {
     int resultadoDivision;
     resultadoDivision = numeroUno / numeroDos;
+    return resultadoDivision;
      printf ("Division: %d \n", resultadoDivision);
+
 }
 
 int multiplicacionDeNumeros(int numeroUno, int numeroDos)
 {
     int resultadoMultiplicacion;
     resultadoMultiplicacion = numeroUno * numeroDos;
+     return resultadoMultiplicacion;
      printf ("La multiplicación es: %d \n", resultadoMultiplicacion);
+
 }
 

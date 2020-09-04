@@ -2,16 +2,16 @@ int pedirNumeroUno();
 
 int pedirNumeroDos();
 
-int mostrarNumerosMenu(int primerNumero, int segundoNumero);
+int mostrarNumerosMenu(int , int);
 
 char menuDeOperaciones();
 
-int sumaDeNumeros(int primerNumero, int segundoNumero);
+int sumaDeNumeros(int, int);
 
-int restaDeNumeros(int primerNumero, int segundoNumero);
+int restaDeNumeros(int , int);
 
-int divisionDeNumeros(int primerNumero, int segundoNumero);
+int divisionDeNumeros(int , int);
 
-int multiplicacionDeNumeros(int primerNumero, int segundoNumero);
+int multiplicacionDeNumeros(int, int);
 
 
