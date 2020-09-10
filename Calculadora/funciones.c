@@ -1,80 +1,46 @@
 #include <stdio.h>
 
-int pedirNumeroUno()
+int pedirNumero()
 {
-    int numeroUno;
-    printf ("Ingrese un numero: \n");
-    scanf ("%d", &numeroUno);
-    return numeroUno;
-
-    //Pide el número y se lo asigna a la variable numeroUno
+    int numero;
+    printf("Ingrese un numero por favor \n");
+    scanf("%d", &numero);
+    return numero;
 }
 
-int pedirNumeroDos()
+int sumarNumeros(int uno, int dos)
 {
-    int numeroDos;
-    printf ("Ingrese un segundo numero: \n");
-    scanf ("%d", &numeroDos);
-    return numeroDos;
-
-    //Pide el número y se lo asigna a la variable numeroDos
+    int resultado = 0;
+    resultado = uno + dos;
+    return resultado;
 }
 
-
-int mostrarNumerosMenu(int numeroUno, int numeroDos)
+int restarNumeros(int uno, int dos)
 {
-    printf("El primer numero que ingreso es: %d \n", numeroUno);
-
-    printf("y el segundo numero que ingreso es: %d \n", numeroDos);
-
-    return 0;
+    int resultado = 0;
+    resultado = uno - dos;
+    return resultado;
 }
 
-int menuDeOperaciones(){
-    int opcion;
-    printf ("¿Desea sumarlos (0), restarlos (1), dividirlos (2) o multiplicarlos (3) \n");
+int dividirNumeros(int uno, int dos)
+{
+    float resultado = 0;
+    resultado = uno / dos;
+    return (float)resultado;
+}
+
+int multiplicarNumeros(int uno, int dos)
+{
+    int resultado = 0;
+    resultado = uno * dos;
+    return resultado;
+}
+
+int menuDeOpciones(int opcion)
+{
     scanf("%d", &opcion);
-       if(opcion == 0){
-           int sumaDeNumeros();
-       }
-    return 0;
 }
 
 
-int sumaDeNumeros(int numeroUno, int numeroDos)
-{
-    int resultadoSuma;
-    resultadoSuma = numeroUno + numeroDos;
-    return resultadoSuma;
-     printf ("Suma %d \n", resultadoSuma);
 
-     //Se declara la variable del resultado para colocar el resultado de la suma para luego mostrarlo.
-}
-
-int restaDeNumeros(int numeroUno, int numeroDos)
-{
-    int resultadoResta;
-    resultadoResta = numeroUno - numeroDos;
-    return resultadoResta;
-     printf ("Resta: %d \n", resultadoResta);
-
-}
-
-int divisionDeNumeros(int numeroUno, int numeroDos)
-{
-    int resultadoDivision;
-    resultadoDivision = numeroUno / numeroDos;
-    return resultadoDivision;
-     printf ("Division: %d \n", resultadoDivision);
-
-}
-
-int multiplicacionDeNumeros(int numeroUno, int numeroDos)
-{
-    int resultadoMultiplicacion;
-    resultadoMultiplicacion = numeroUno * numeroDos;
-     return resultadoMultiplicacion;
-     printf ("La multiplicación es: %d \n", resultadoMultiplicacion);
-
-}
 

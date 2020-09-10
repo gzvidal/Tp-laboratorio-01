@@ -1,7 +1,10 @@
 # depslib dependency file v1.0
-1599162953 source:c:\users\gonzalo\desktop\programación utn\laboratorio l\tp-laboratorio-01\calculadora\main.c
+1599778231 source:c:\users\gonzalo\desktop\programación utn\laboratorio l\tp-laboratorio-01\calculadora\main.c
 	<stdio.h>
 	"Funciones.h"
 
-1599221881 c:\users\gonzalo\desktop\programación utn\laboratorio l\tp-laboratorio-01\calculadora\funciones.h
+1599777366 c:\users\gonzalo\desktop\programación utn\laboratorio l\tp-laboratorio-01\calculadora\funciones.h
+
+1599777717 source:c:\users\gonzalo\desktop\programación utn\laboratorio l\tp-laboratorio-01\calculadora\funciones.c
+	<stdio.h>
 

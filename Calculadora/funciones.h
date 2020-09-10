@@ -1,17 +1,16 @@
-int pedirNumeroUno();
-
-int pedirNumeroDos();
+int pedirNumero();
 
 int mostrarNumerosMenu(int , int);
 
-char menuDeOperaciones();
+int menuDeOpciones(int opcion);
 
-int sumaDeNumeros(int, int);
+int sumarNumeros(int uno, int dos);
 
-int restaDeNumeros(int , int);
+int restarNumeros(int uno, int dos);
 
-int divisionDeNumeros(int , int);
+int dividirNumeros(float uno, float dos);
 
-int multiplicacionDeNumeros(int, int);
+int multiplicarNumeros(int uno, int dos);
+
 
 
