@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int pedirNumero()
+int PedirNumero()
 {
     int numero;
     printf("Ingrese un numero por favor \n");
@@ -8,35 +8,55 @@ int pedirNumero()
     return numero;
 }
 
-int sumarNumeros(int uno, int dos)
+int SumarNumeros(int uno, int dos)
 {
     int resultado = 0;
     resultado = uno + dos;
     return resultado;
 }
 
-int restarNumeros(int uno, int dos)
+int RestarNumeros(int uno, int dos)
 {
     int resultado = 0;
     resultado = uno - dos;
     return resultado;
 }
 
-int dividirNumeros(int uno, int dos)
+int DividirNumeros(int uno, int dos)
 {
-    float resultado = 0;
-    resultado = uno / dos;
-    return (float)resultado;
+    int resultado = 0;
+    char* mensajeError = "No se puede dividir por 0 \n";
+    if(uno != 0 && dos != 0)
+    {
+        resultado = uno / dos;
+        return resultado;
+    } else
+    {
+       return mensajeError;
+    }
+
 }
 
-int multiplicarNumeros(int uno, int dos)
+int MultiplicarNumeros(int uno, int dos)
 {
     int resultado = 0;
     resultado = uno * dos;
     return resultado;
 }
 
-int menuDeOpciones(int opcion)
+int CalcularFactorial(int numero)
+{
+
+    int factorial=1;
+
+    while(numero>0)
+    {
+    factorial = numero * factorial;
+    numero --;
+    }
+    return factorial;
+}
+int MenuDeOpciones(int opcion)
 {
     scanf("%d", &opcion);
 }
