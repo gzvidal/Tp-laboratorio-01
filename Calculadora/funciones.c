@@ -44,17 +44,15 @@ int MultiplicarNumeros(int uno, int dos)
     return resultado;
 }
 
-int CalcularFactorial(int numero)
+int CalcularFactorial(int n)
 {
 
-    int factorial=1;
+    int resp;
+    if(n==1)
+    return 1;
+    resp=n*CalcularFactorial(n-1);
+    return (resp);
 
-    while(numero>0)
-    {
-    factorial = numero * factorial;
-    numero --;
-    }
-    return factorial;
 }
 int MenuDeOpciones(int opcion)
 {

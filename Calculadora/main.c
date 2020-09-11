@@ -68,9 +68,9 @@ int main()
 
             printf("El resultado de la division entre %d y %d es: %d \n", numeroX,numeroY,resultadoDivision);
 
-            printf("El resultado del factorial de %d es: %d \n"),numeroX,resultadoFactorialUno;
+            printf("El resultado del factorial de %d es: %d \n",numeroX,resultadoFactorialUno);
 
-            printf("El resultado del factorial de %d es: %d \n"),numeroY, resultadoFactorialDos;
+            printf("El resultado del factorial de %d es: %d \n",numeroY, resultadoFactorialDos);
             }
             break;
             case 5:
