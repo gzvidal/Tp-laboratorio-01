@@ -19,7 +19,6 @@ int main()
     int numeroX = 0;
     int numeroY = 0;
     int opcion;
-    int respuesta;
 
     do{
         printf("1-Ingresar un valor\n2-Ingresar un segundo valor\n3-Calcular valores\n4-Mostrar valores\n5-Salir\n");

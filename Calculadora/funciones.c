@@ -54,10 +54,6 @@ int CalcularFactorial(int n)
     return (resp);
 
 }
-int MenuDeOpciones(int opcion)
-{
-    scanf("%d", &opcion);
-}
 
 
 

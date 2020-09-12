@@ -1,18 +1,14 @@
-int PedirNumero();
+int PedirNumero(); //Pide el numero al usuario y lo guarda en una variable
 
-int MostrarNumerosMenu(int , int);
+int SumarNumeros(int uno, int dos); //Suma dos numeros
 
-int MenuDeOpciones(int opcion);
+int RestarNumeros(int uno, int dos); //Resta dos numeros
 
-int SumarNumeros(int uno, int dos);
+int DividirNumeros(float uno, float dos); // Divide dos numeros
 
-int RestarNumeros(int uno, int dos);
+int MultiplicarNumeros(int uno, int dos); // Multiplica dos numeros
 
-int DividirNumeros(float uno, float dos);
-
-int MultiplicarNumeros(int uno, int dos);
-
-int CalcularFactorial(int numero);
+int CalcularFactorial(int numero); // Calcula el factorial de determinado numero
 
 
 
